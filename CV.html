@@ -1,1 +1,182 @@
-Mon CV
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Nom Prénom</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .cv {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    /* Colonne gauche */
+    .sidebar {
+      background: #1e293b;
+      color: #ffffff;
+      padding: 30px;
+    }
+
+    .sidebar h1 {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
+
+    .sidebar h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: #cbd5e1;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 5px;
+    }
+
+    .section ul {
+      list-style: none;
+    }
+
+    .section ul li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    /* Colonne droite */
+    .content {
+      padding: 30px;
+    }
+
+    .content h3 {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+      color: #1e293b;
+    }
+
+    .experience, .education {
+      margin-bottom: 25px;
+    }
+
+    .item {
+      margin-bottom: 15px;
+    }
+
+    .item h4 {
+      font-size: 1.1rem;
+    }
+
+    .item span {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    .item p {
+      font-size: 0.95rem;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .cv {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <!-- Colonne gauche -->
+    <aside class="sidebar">
+      <h1>Nom Prénom</h1>
+      <h2>Développeur Web</h2>
+
+      <div class="section">
+        <h3>Contact</h3>
+        <ul>
+          <li>Email : nom.prenom@email.com</li>
+          <li>Téléphone : 06 00 00 00 00</li>
+          <li>Ville, Pays</li>
+          <li>LinkedIn / GitHub</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Compétences</h3>
+        <ul>
+          <li>HTML / CSS / JavaScript</li>
+          <li>React / Vue</li>
+          <li>Node.js</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Langues</h3>
+        <ul>
+          <li>Français — Natif</li>
+          <li>Anglais — Intermédiaire</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Colonne droite -->
+    <main class="content">
+      <section class="experience">
+        <h3>Expériences professionnelles</h3>
+
+        <div class="item">
+          <h4>Développeur Web — Entreprise X</h4>
+          <span>2023 - Présent</span>
+          <p>
+            Développement et maintenance d'applications web, optimisation des performances,
+            collaboration avec les équipes design et backend.
+          </p>
+        </div>
+
+        <div class="item">
+          <h4>Stagiaire Développeur — Entreprise Y</h4>
+          <span>2022 - 2023</span>
+          <p>
+            Création de sites vitrines, intégration responsive et amélioration de l'expérience utilisateur.
+          </p>
+        </div>
+      </section>
+
+      <section class="education">
+        <h3>Formation</h3>
+
+          <h4>Licence Informatique</h4>
+      </section>
+</html>    </main>
+  </div>
+</body>
+          <span>Université Z — 2020 - 2023</span>
+          <p>Spécialisation développement web et logiciels.</p>
+        </div>
+
